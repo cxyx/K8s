@@ -1,3 +1,5 @@
+```sh
+
 root@test-pod-cx-pressure-client-04:/test# python3 /home/smallfile/smallfile_cli.py --top /test/small --threads 1 --files 100000 --file-size 1 --operation cleanup
 do not need pause between files for single-threaded workload
 changing --finish to true for op type cleanup
@@ -36,3 +38,4 @@ total files = 100000
 100.00% of requested files processed, warning threshold is  70.00%
 elapsed time =   162.158
 files/sec = 616.68084
+```
